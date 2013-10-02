@@ -1,0 +1,37 @@
+{
+  "name": "prodtracker",
+  "description": "Product impression and click tracker for Lazada SEA.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lazadaonsite/Product-Tracker",
+  "author": {
+    "name": "Nirmal Natarajan",
+    "email": "nirmal.natarajan@lazada.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazadaonsite/Product-Tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lazadaonsite/Product-Tracker/issues"
+  },
+  "licenses": [
+    {
+      "type": "None",
+      "url": "https://github.com/lazadaonsite/Product-Tracker/blob/master/LICENSE-None"
+    }
+  ],
+  "main": "lib/prodtracker",
+  "engines": {
+    "node": "0.6.19"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [],
+  "dependencies": {
+    "mysql": "~2.0.0-alpha9"
+  }
+}
